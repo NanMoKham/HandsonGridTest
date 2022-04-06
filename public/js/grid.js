@@ -70,7 +70,7 @@ var hot = new Handsontable(document.getElementById("example"), {
   colHeaders: true,
   rowHeaders: true,
   minSpareRows: 1,
-  // fixedColumnsLeft: 4,
+  fixedColumnsLeft: 4,
   manualColumnResize: true,
   contextMenu: true,
   hiddenRows: {
